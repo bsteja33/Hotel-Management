@@ -1,0 +1,42 @@
+# Hotel Management System
+
+This repository contains a Hotel Management System designed to streamline various operations within a hotel, including room bookings, guest management, billing, and more. The system offers a user-friendly interface for both hotel staff and guests, making it easier to manage reservations, track room availability, and handle billing efficiently.
+
+Features:
+
+Room Booking: Easily book rooms based on availability, room type, and guest preferences.
+Guest Management: Maintain a database of guest information, including personal details, booking history, and preferences.
+Billing System: Generate bills, process payments, and manage invoices seamlessly.
+Room Availability: Real-time tracking of room availability, making it easier to manage reservations and avoid overbooking.
+Reporting: Generate various reports such as occupancy rates, revenue, and guest feedback to make informed decisions.
+User-Friendly Interface: Intuitive UI design for easy navigation and efficient use by hotel staff and guests alike.
+Requirements
+Python 3.x
+Django framework
+PostgreSQL database
+
+## Setup Instructions
+
+### 1. Download & Install XAMPP
+- Download XAMPP from [here](https://www.apachefriends.org/index.html).
+- Install XAMPP in C:\xampp (default installation directory).
+
+### 2. Clone Repository
+- Clone this repository into C:\xampp\htdocs 
+
+Replace your-username with your actual GitHub username if you forked the repository.
+
+### 3. Start XAMPP
+- Run XAMPP control panel.
+- Start "Apache" and "MySQL" services.
+
+### 4. Database Setup
+- Open your web browser and navigate to localhost/phpmyadmin/.
+- Click on "New" in the sidebar to create a new database.
+- Name the database HOTELMANEGEMENT.
+- After creating the database, click on the Import tab.
+- Choose the file HOTEL.sql from the cloned repository and click on "Go" to import.
+
+### 5. Access the Application
+- Open your web browser and go to http://localhost/Hotel-Management-System/.
+- Register a new account and then log in to start using the Hotel Management System.
